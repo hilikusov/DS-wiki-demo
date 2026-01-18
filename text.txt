@@ -1,0 +1,4 @@
+# Directory layout
+/var/www/darksouls-wiki/
+├── index.html
+└── style.css

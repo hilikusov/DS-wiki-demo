@@ -1,0 +1,65 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dark Souls Wiki</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Dark Souls Wiki</h1>
+        <p>Prepare to Die</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#lore">Lore</a></li>
+            <li><a href="#bosses">Bosses</a></li>
+            <li><a href="#classes">Classes</a></li>
+            <li><a href="#weapons">Weapons</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="lore">
+            <h2>Lore</h2>
+            <p>Dark Souls is a dark fantasy action RPG set in the cursed land of Lordran.</p>
+        </section>
+
+        <section id="bosses">
+            <h2>Bosses</h2>
+            <ul>
+                <li>Asylum Demon</li>
+                <li>Bell Gargoyles</li>
+                <li>Ornstein & Smough</li>
+                <li>Gwyn, Lord of Cinder</li>
+            </ul>
+        </section>
+
+        <section id="classes">
+            <h2>Classes</h2>
+            <ul>
+                <li>Knight</li>
+                <li>Warrior</li>
+                <li>Sorcerer</li>
+                <li>Pyromancer</li>
+            </ul>
+        </section>
+
+        <section id="weapons">
+            <h2>Weapons</h2>
+            <ul>
+                <li>Zweihander</li>
+                <li>Claymore</li>
+                <li>Black Knight Sword</li>
+                <li>Uchigatana</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© Dark Souls Wiki — Praise the Sun ☀</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,13 @@
+# /etc/apache2/sites-available/darksouls-wiki.conf
+<VirtualHost *:80>
+    ServerName darksouls.local
+    DocumentRoot /var/www/darksouls-wiki
+
+    <Directory /var/www/darksouls-wiki>
+        AllowOverride All
+        Require all granted
+    </Directory>
+
+    ErrorLog ${APACHE_LOG_DIR}/darksouls_error.log
+    CustomLog ${APACHE_LOG_DIR}/darksouls_access.log combined
+</VirtualHost>
